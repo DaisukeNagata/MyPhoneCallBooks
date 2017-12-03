@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Dec 03 10:51:02 JST 2017
+#Sun Dec 03 11:55:54 JST 2017
 2.base=/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/transforms/dexMerger/debug/12
 5.set=DEX
 0.path=classes.dex

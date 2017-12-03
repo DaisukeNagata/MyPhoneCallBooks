@@ -4,12 +4,12 @@
         "source": "/Users/nagatadaisuke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ebe1b0cb8653584f050d2fe3b4858a68/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/nagatadaisuke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ebe1b0cb8653584f050d2fe3b4858a68/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/nagatadaisuke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ebe1b0cb8653584f050d2fe3b4858a68/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/res/merged/androidTest/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/nagatadaisuke/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ebe1b0cb8653584f050d2fe3b4858a68/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/res/merged/androidTest/debug/drawable-v21_notification_action_background.xml.flat",
