@@ -1,0 +1,4 @@
+#Sun Dec 03 10:51:02 JST 2017
+base.0=/Users/nagatadaisuke/MyPhoneCallBook/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
