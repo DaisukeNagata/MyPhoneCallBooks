@@ -57,15 +57,12 @@ class MainActivity extends AppCompatActivity {
         //LIstViewの設定
         this.listView = (ListView) findViewById(R.id.listView);
 
-        String myNumber = null;
-
         // API 23 以上であればPermission chekを行う
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkPermission();
         }
 
         Intent intent = new Intent(getApplication(), MainActivity.class);
-        // 常駐Serviceの開始
         startService(intent);
 
 
@@ -98,15 +95,11 @@ class MainActivity extends AppCompatActivity {
         cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,null,null,null);
 
         //Move the cursor to first
-        if (cursor.moveToFirst()){
+        while (cursor.moveToNext()) {
 
-            do{
                 //Get thecontacts name
-                String name = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts._ID));
                 String id = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
                 contacts.add(id);
-
-            }while (cursor.moveToNext());
         }
         //Close the curosor
         cursor.close();
