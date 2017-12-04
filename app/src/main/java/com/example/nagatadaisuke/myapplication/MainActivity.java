@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static int OVERLAY_PERMISSION_REQ_CODE = 1000;
     static String phoneNumber;
